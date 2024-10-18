@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
         // ]);
         $this->call([
             AddGenre::class, // Add your seeder class here
+            CreateAdmin::class
         ]);
     }
 }
